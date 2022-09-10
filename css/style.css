@@ -70,9 +70,9 @@
     background-image: linear-gradient(rgba(30,32,36,.8),rgba(30,32,36,9));
 }
 .carousel-indicators {
-    justify-content: end;
+    /* justify-content: end; */
     top:0;
-    right:-70px;
+    right:-80%;
 }
 
 .carousel-indicators [data-bs-target] {
