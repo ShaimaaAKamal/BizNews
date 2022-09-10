@@ -8,8 +8,16 @@
     background-color: var(--bgColor);
 }
 
+.btn-site{
+    background-color: var(--siteColor);
+}
+
 .text-gray{
     color:var(--siteGray);
+}
+
+.text-site{
+    color:var(--siteColor);
 }
 
 .fs-8{
@@ -18,4 +26,40 @@
 
 .rightBorder{
     border-right:1px solid #31404B;
+}
+
+.conWidth{
+    width:100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+}
+
+.logoBg{
+    background-color: var(--bgColor);
+}
+
+.logoColor{
+    color:#fff;
+}
+
+.navbar {
+    --bs-navbar-padding-y: 0;
+}
+
+.navbar-nav .nav-link.active{
+    background-color: var(--siteColor);
+    color:var(--bgColor)!important;
+}
+
+@media screen and (min-width:992px){
+    .conWidth{
+        width:85%;
+    }
+    
+    .logoBg{
+        background-color: transparent;
+    }
+    .logoColor{
+        color:var(--bgColor);
+    }
 }
