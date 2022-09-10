@@ -116,6 +116,53 @@ width:40px;
     --bs-card-border-radius: 0;
 }
 
+.facebook{
+    background-color: #2D457E;
+}
+.fbLight{
+    background-color: #39559F;;
+}
+.twitter{
+   background-color: #4188C3;;
+}
+.twitterLight{
+    background-color: #52AAF4;;
+}
+.linkedin{
+    background-color:#066B8B ;
+}
+
+
+.linklight{
+background-color: #0385AE;
+}
+.insta{
+    background-color:#A02A7D ;
+}
+.instalight{
+    background-color: #C8349D;
+}
+
+.youtube{
+    background-color: #AF3925;
+}
+
+.youtubeLight{
+    background-color:#DC472F ;
+}
+
+.viemo{
+background-color: #084459;
+}
+
+.viemolight{
+    background-color: #055570;
+}
+
+.bottomBorder{
+    border-bottom:1px solid #DEE2E5;
+}
+
 @media screen and (min-width:992px){
     .conWidth{
         width:85%;
