@@ -88,6 +88,8 @@ background-color: var(--siteColor);
 width:40px;
 }
 
+
+
 .homeContent .container{
     width:95%;
 }
@@ -108,6 +110,10 @@ width:40px;
 }
 .article4{
     background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),url('../images/news-700x435-4.jpg');
+}
+
+.card{
+    --bs-card-border-radius: 0;
 }
 
 @media screen and (min-width:992px){
