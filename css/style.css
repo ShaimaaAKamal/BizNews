@@ -162,7 +162,10 @@ background-color: #084459;
 .bottomBorder{
     border-bottom:1px solid #DEE2E5;
 }
+.trendBorder{
+    border:1px solid #DEE2E5;
 
+}
 @media screen and (min-width:992px){
     .conWidth{
         width:85%;
