@@ -1,0 +1,21 @@
+:root{
+    --siteColor:#FFCC02;
+    --siteGray:#9B9DA3;
+    --bgColor:#1E2024;
+}
+
+.bgDark{
+    background-color: var(--bgColor);
+}
+
+.text-gray{
+    color:var(--siteGray);
+}
+
+.fs-8{
+    font-size: .8rem;
+}
+
+.rightBorder{
+    border-right:1px solid #31404B;
+}
