@@ -24,6 +24,10 @@
     font-size: .8rem;
 }
 
+.fs-9{
+    font-size: .9rem;
+}
+
 .rightBorder{
     border-right:1px solid #31404B;
 }
@@ -50,6 +54,35 @@
     background-color: var(--siteColor);
     color:var(--bgColor)!important;
 }
+
+/* nAV SECTION */
+
+/* home section */
+
+.Home{
+    background-image: linear-gradient(rgba(30,32,36,.8),rgba(30,32,36,9));
+}
+.carousel-indicators {
+    justify-content: end;
+    top:0;
+    right:-70px;
+}
+
+.carousel-indicators [data-bs-target] {
+    height:20px;
+    width:20px;
+    opacity:1;
+    transition: width 1s;
+}
+
+
+.carousel-indicators .active{
+background-color: var(--siteColor);
+width:40px;
+}
+
+
+
 
 @media screen and (min-width:992px){
     .conWidth{
