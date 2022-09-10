@@ -164,7 +164,13 @@ background-color: #084459;
 }
 .trendBorder{
     border:1px solid #DEE2E5;
+}
+.socials{
+    background-color: #31404B;
+}
 
+.copyrights{
+    background-color: #111;
 }
 @media screen and (min-width:992px){
     .conWidth{
