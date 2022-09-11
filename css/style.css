@@ -190,6 +190,10 @@ background-color: #084459;
     background-color: #fff;
     color:#000 !important
 }
+.topBorder{
+    border-top:1px solid #DEE2E5;
+
+}
 @media screen and (min-width:992px){
     .conWidth{
         width:85%;
