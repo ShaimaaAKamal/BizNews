@@ -185,6 +185,11 @@ background-color: #084459;
     color:#fff !important;
     background-color: #111;
 }
+
+.socials:hover{
+    background-color: #fff;
+    color:#000 !important
+}
 @media screen and (min-width:992px){
     .conWidth{
         width:85%;
