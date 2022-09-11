@@ -172,6 +172,19 @@ background-color: #084459;
 .copyrights{
     background-color: #111;
 }
+
+.card-title:hover,.features p:hover,.par:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.soc:hover{
+    cursor: pointer;
+}
+
+.tag:hover{
+    color:#fff !important;
+    background-color: #111;
+}
 @media screen and (min-width:992px){
     .conWidth{
         width:85%;
